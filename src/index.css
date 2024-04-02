@@ -19,3 +19,23 @@ code {
 .containerr{
   @apply sm:px-[2rem] lg:px-[4rem] xl:px-[5rem] 2xl:px-[6rem] px-[15px] ;
 }
+
+
+.parda{
+  background-image: url(./Assets/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+ .parda::after{
+  content: " ";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 30, 0.5);
+  z-index: 1;
+}
+
+
+
