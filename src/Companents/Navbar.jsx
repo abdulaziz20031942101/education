@@ -14,11 +14,11 @@ const Navbar = () => {
 
         <div className={` text-blue-800  md:block md:static absolute  md:w-full top-[80px] w-[50%]  ${toggle ? 'left-0 backdrop-blur'  : 'left-[-100%] transition-[1s]' }  p-[20px]`} >
          <ul className='flex md:flex-row flex-col md:justify-end gap-10 md:text-[18px] lg:text-[22px] font-bold'>
-            <li className='hover:text-[#dbdb58]'><a href="#">Home</a></li>
-            <li className='hover:text-[#dbdb58]'><a href="#">About</a></li>
-            <li className='hover:text-[#dbdb58]'><a href="#">Blog</a></li>
-            <li className='hover:text-[#dbdb58]'><a href="#">Cuorses</a></li>
-            <li className='hover:text-[#dbdb58]'><a href="#">Contact</a></li>
+            <li className='hover:text-[#dbdb58]'><a href="#home">Home</a></li>
+            <li className='hover:text-[#dbdb58]'><a href="#about">About</a></li>
+            <li className='hover:text-[#dbdb58]'><a href="#blog">Blog</a></li>
+            <li className='hover:text-[#dbdb58]'><a href="#cuorses">Cuorses</a></li>
+            <li className='hover:text-[#dbdb58]'><a href="#contact">Contact</a></li>
             
          </ul>
         </div>
